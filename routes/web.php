@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/dashboard', function () {
     $title = 'Dashboard';
-    return view('index', compact('title'));
+    return view('surat/dashboardSurat', compact('title'));
 });
 
 Route::get('/input', function () {
